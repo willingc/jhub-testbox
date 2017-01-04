@@ -28,3 +28,5 @@ cd testbox
 `vagrant ssh` - ssh from directory with Vagrantfile
 
 `vagrant ssh-config` - ssh details to login from other locations
+
+`vagrant reload` - restart
