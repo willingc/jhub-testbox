@@ -1,0 +1,9 @@
+---
+
+- hosts: all
+  become: yes
+  tasks:
+  - name: make sure ntp for time sync is installed
+    apt: name=ntp state=present
+  - name: make sure ntp is running
+    service: name=ntp state=started enabled=yes
