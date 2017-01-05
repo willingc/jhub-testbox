@@ -90,4 +90,5 @@ ENV/
 
 # Vagrant
 *.box
+/.vagrant/
 
